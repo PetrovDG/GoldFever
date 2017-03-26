@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Gold Fever Quiz</string>
+    <string name="welcome_message">Do you have immunity against the Gold Fever?
+        \nAre you prepared for the Gold temptation?
+        \nWhat is your \"Gold\" status?
+        \nFind out all this with the Gold Fever Quiz! </string>
+    <string name="name">Please Write Your Name Here</string>
+    <string name="intro">The quiz consists of 7 short questions.
+                        \n\"Dig\" down and have fun!</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="title_activity_results">ResultsActivity</string>
+    <string name="player">Player:</string>
+    <string name="carat_question">Please Write Your Answer Here</string>
+    <string name="number1">1/7</string>
+    <string name="number2">2/7</string>
+    <string name="number3">3/7</string>
+    <string name="number4">4/7</string>
+    <string name="number5">5/7</string>
+    <string name="number6">6/7</string>
+    <string name="number7">7/7</string>
+    <string name="question1">Is it true that in almost every river in Bulgaria has placer gold?</string>
+    <string name="answer11">Yes.</string>
+    <string name="answer12">No.</string>
+    <string name="answer13">No, only in large rivers.</string>
+    <string name="question2">Bulgaria is the second gold mining country in the EU (7914 kg in 2015).
+                            \nWhich country ranks first in gold mining in the EU (8342 kg in 2015)?</string>
+    <string name="answer21">Sweden</string>
+    <string name="answer22">Poland</string>
+    <string name="answer23">Finland</string>
+    <string name="question3">What is the name of the mineral variety of the native gold, which contains >20 wt. % Ag in its chemical composition?</string>
+    <string name="answer31">Aurum</string>
+    <string name="answer32">Electrum</string>
+    <string name="answer33">Argentite</string>
+    <string name="question4">What is a Carat (Karat in USA and Germany)?</string>
+    <string name="answer41">A unit of weight of the Gold.</string>
+    <string name="answer42">A unit of purity of the Gold.</string>
+    <string name="answer43">A unit of weight of the Diamonds.</string>
+    <string name="answer44">A unit of purity of the Diamonds.</string>
+    <string name="question5">Is it true that during the California gold rush, some speculators paid more for an ounce of water than they received for an ounce of Gold?</string>
+    <string name="answer51">Yes.</string>
+    <string name="answer52">No.</string>
+    <string name="question6">Absolutely pure Gold is so soft that it can be molded with hands. How many carats is this Gold?</string>
+    <string name="question7">The world\'s largest nugget was found near Dunolly, Australia on 5th of February 1869. The nugget was soon melted down into ingots and shipped to the Bank of England. How much it was weighed?</string>
+    <string name="answer71">72 kg</string>
+    <string name="answer72">68 kg</string>
+    <string name="answer73">24 kg</string>
+    <string name="button_check">Check your answers</string>
+    <string name="correct">Correct!</string>
+    <string name="incorrect">Incorrect!</string>
+    <string name="no_answer">No answer.</string>
+    <string name="correct_answers">Correct answers: </string>
+    <string name="your_answers">Your answers:</string>
+    <string name="button_results">Results</string>
+    <string name="result">You answered correctly to <xliff:g id="correctAnswers">%s</xliff:g> of 7 questions!</string>
+    <string name="your_prize">This is your prize:</string>
+    <string name="result0">Unfortunately, you failed this time. Don\'t despair and try again!</string>
+    <string name="result1_3">You are on the right track and discover a native copper! Keep going and you will improve your skills in prospecting of precious metals!
+                                \nYour Gold status is: Apprentice</string>
+    <string name="result4_5">Well done! You got an eye for the precious metals and found the Silver tree! Gather your strength under its shadow and continue to develop knowledge and skills on the way to the Gold nugget.
+                                \nYour Gold status is: Expert </string>
+    <string name="result6_7">Excellent! You are obsessed with the Gold and deservedly discover a Gold nugget!
+                            \nYour Gold status is: Prospector</string>
+    <string name="send_result">Gold Fever Quiz Results</string>
+    <string name="send_body">Gold Fever Quiz Results</string>
+    <string name="button_return">Return</string>
+    <string name="button_Send">Send results</string>
+    <string name="fame">Wall of Fame</string>
+</resources>

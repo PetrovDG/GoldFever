@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#E65100</color>
+    <color name="colorAccent">#FF6F00</color>
+    <color name="colorTextButtons">#ffffff</color>
+    <color name="quiz_linear_layout">#FFC107</color>
+    <color name="question_linear_layout">#FFF8E1</color>
+    <color name="name_text">#000000</color>
+</resources>

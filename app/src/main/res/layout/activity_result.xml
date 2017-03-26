@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_layout"
+    tools:context=".ResultActivity">
+
+
+    <LinearLayout
+        android:id="@+id/headerView"
+        style="@style/linear_layout_header">
+
+        <TextView
+            android:id="@+id/textView"
+            style="@style/text"
+            android:text="@string/player" />
+
+        <TextView
+            android:id="@+id/playerName"
+            style="@style/name_text" />
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollableContent"
+        style="@style/scroll_view">
+
+
+        <LinearLayout style="@style/results_linear_layout">
+
+
+            <TextView
+                android:id="@+id/result_text"
+                style="@style/results_text"
+                android:text="@string/result" />
+
+            <TextView
+                android:id="@+id/results_prize"
+                style="@style/results_text"
+                android:text="@string/your_prize" />
+
+            <ImageView
+                android:id="@+id/image_prize"
+                style="@style/image"
+                android:src="@drawable/gold_prize"
+                tools:ignore="contentDescription" />
+
+            <TextView
+                android:id="@+id/result_comment"
+                style="@style/results_text"
+                android:text="@string/result0" />
+
+            <Button
+                style="@style/submit_button"
+                android:onClick="wallOfFame"
+                android:text="@string/fame" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/footerView"
+        style="@style/linear_layout_footer">
+
+
+        <Button
+            android:id="@+id/button_return"
+            style="@style/return_button"
+            android:onClick="pressReturn"
+            android:text="@string/button_return" />
+
+        <Button
+            android:id="@+id/button_send"
+            style="@style/send_button"
+            android:onClick="pressSend"
+            android:text="@string/button_Send" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

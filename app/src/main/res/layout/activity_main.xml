@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/linear_layout">
+
+        <TextView
+            style="@style/text"
+            android:text="@string/welcome_message" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            style="@style/image"
+            android:src="@drawable/gold_digger"
+            tools:ignore="contentDescription" />
+
+        <EditText
+            android:id="@+id/name_field"
+            style="@style/edit_text" />
+
+        <TextView
+            style="@style/text"
+            android:text="@string/intro" />
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="startQuiz"
+            android:text="@string/start_quiz" />
+
+    </LinearLayout>
+
+</ScrollView>
