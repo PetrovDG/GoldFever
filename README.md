@@ -10,3 +10,5 @@ The main characteristics of the app are:
 I will appreciate all comments, advices, impressions and contributions according this project and my programming development. 
 
 Thank you in advance!
+
+<b>P.S. The Quiz has updated version on Google Play:</b> https://play.google.com/store/apps/details?id=com.sitost.goldfeverquiz
